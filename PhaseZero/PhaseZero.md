@@ -6,7 +6,7 @@
 
 # 📦 Phase 0 – Networking + Git
 
-> Duration: June 25 – July 7  
+> Duration: June 25 – July 8  
 > Status: ✅ Completed  
 > Focus: Internet fundamentals, protocols, version control (Git)
 

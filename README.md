@@ -51,7 +51,7 @@ Every concept is studied, practiced, tested, and documented.
 ## 📂 Phase 0 Summary (Networking + Git)
 
 > **Start Date**: June 23  
-> **End Date**: July 7
+> **End Date**: July 8
 > **Status**: ✅ Completed  
 > **Focus**: Deep understanding of the web and Git fundamentals
 
