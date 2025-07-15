@@ -55,7 +55,18 @@ Every concept is studied, practiced, tested, and documented.
 > **Status**: ✅ Completed  
 > **Focus**: Deep understanding of the web and Git fundamentals
 
-📝 [Documentation](PhaseZero/PhaseZero.md)
+📝 [Documentation](PhaseZero/README-PhaseZero.md)
+
+<br>
+
+## 📂 Phase 1 Summary (PRD, HTML and CSS)
+
+> **Start Date**: July 9  
+> **End Date**: July
+> **Status**: 🍀 Learning
+> **Focus**: Deep understanding of Product Management Document, HTML and CSS.
+
+📝 [Documentation](PhaseOne/README-PhaseOne.md)
 
 # Tech Stack
 

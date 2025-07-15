@@ -58,6 +58,6 @@ All handwritten notes for Phase 0 (Networking + Git) are available in a single P
 
 <br>
 
-[🏠 Home](../README.md)
+[🏠 Home](../README.md) • [1️⃣ PhaseOne](../PhaseOne/README-PhaseOne.md)
 
 [def]: ./assets/phase0-notes.pdf
