@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter Seven - HTML</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      form {
+        width: 50%;
+        border: 2px solid black;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        background-color: cadetblue;
+      }
+
+      textarea {
+        height: 300px;
+        font-size: 20px;
+        padding: 20px;
+      }
+
+      input {
+        padding: 20px;
+        font-size: 20px;
+      }
+
+      label {
+        font-size: 16px;
+      }
+
+      button {
+        padding: 18px 10px;
+        width: 30%;
+        align-self: center;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form: Details</h1>
+    <form action="">
+      <label for="mobile">Phone Number</label>
+      <input
+        type="number"
+        name="mobile"
+        id="mobile"
+        placeholder="enter mobile number"
+        required
+      />
+
+      <label for="textArea">Message Area</label>
+
+      <textarea
+        name="text area"
+        id="textArea"
+        placeholder="enter message"
+        required
+      ></textarea>
+
+      <label for="cyrpto">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="cyrpto"
+        placeholder="********"
+        pattern="/^[a-zA-Z0-9!@#$%^&*()_+]{8}$/"
+        maxlength="8"
+        required
+      />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

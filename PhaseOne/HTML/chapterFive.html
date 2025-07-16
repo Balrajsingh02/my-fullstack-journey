@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chapter Five - HTML</title>
+
+    <style>
+      .backgroundImage {
+        width: 60vw;
+        height: 60vh;
+        border: 2px solid black;
+        background-image: url(https://images.unsplash.com/photo-1543241964-2aff6a70473f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px auto;
+      }
+    </style>
   </head>
   <body>
     <h1>IMAGE</h1>
@@ -12,5 +24,16 @@
       width="200px"
       alt="phone booth"
     />
+
+    <h1>Image with external link</h1>
+    <a href="https://www.chaicode.com/" target="_blank"
+      ><img
+        src="../../assets/chai-cohort.png"
+        width="300px"
+        alt="chaicode teachers' image"
+        loading="lazy"
+    /></a>
+    <h1>Div with an image - centered</h1>
+    <div class="backgroundImage"></div>
   </body>
 </html>
