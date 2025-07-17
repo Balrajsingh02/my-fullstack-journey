@@ -10,7 +10,7 @@
       }
       form {
         width: 50%;
-        border: 2px solid black;
+        border-radius: 20px;
         margin: 0px auto;
         display: flex;
         flex-direction: column;
@@ -20,15 +20,23 @@
         background-color: cadetblue;
       }
 
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
       textarea {
         height: 300px;
         font-size: 20px;
         padding: 20px;
+        outline-style: none;
       }
 
       input {
         padding: 20px;
         font-size: 20px;
+        outline-style: none;
       }
 
       label {
